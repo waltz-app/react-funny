@@ -1,0 +1,77 @@
+<!doctype html>
+<head>
+	<title>React Loading</title>
+	<link rel="stylesheet" href="example.css">
+</head>
+<body>
+	<div class="container">
+		<h1>React Loading</h1>
+		<h2><a href="https://github.com/waltz-app/react-loading">View project on GitHub</a></h2>
+    <p>
+      React Loading will give you a nice looking and funny loading message for
+      any situation, picking from a pre-selected list of funny (or, well, maybe
+      not) so funny phrases. If you're going to make a user wait, at least make
+      them laugh!
+    </p>
+
+    <pre>npm install react-loading</pre>
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="hint">Sane Defaults</div>
+		<div class="loading-box" id="app"></div>
+    <pre><code>&lt;Loading /&gt;</code></pre>
+
+    <div class="hint">A Title</div>
+		<div class="loading-box" id="app-title"></div>
+    <pre><code>&lt;Loading title="Loading all the things..." /&gt;</code></pre>
+
+    <div class="hint">A title and a message</div>
+		<div class="loading-box" id="app-message"></div>
+    <pre><code>&lt;Loading title="Putting out the fires" message="This could take a while..." /&gt;</code></pre>
+
+    <div class="hint">Make me small, medium, or large.</div>
+		<div class="loading-box" id="app-size-sm"></div>
+		<div class="loading-box" id="app-size-md"></div>
+		<div class="loading-box" id="app-size-lg"></div>
+    <pre><code>&lt;Loading size="sm" /&gt;
+&lt;Loading size="md" /&gt;
+&lt;Loading size="lg" /&gt;</code></pre>
+
+    <div class="hint">Suggested CSS to style this component, similar to the above:</div>
+    <pre>
+.loading {
+  color: #777777;
+  text-align: center;
+}
+.loading.loading-sm h1 {
+  font-size: 1.6em;
+  margin-top: 0.5em;
+}
+.loading.loading-sm p {
+  font-size: 0.85em;
+}
+.loading.loading-md h1 {
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+.loading.loading-md p {
+  font-size: 1em;
+}
+.loading.loading-lg h1 {
+  font-size: 2.4em;
+  margin-top: 0.5em;
+}
+.loading.loading-lg p {
+  font-size: 1.2em;
+}
+    </pre>
+		<div class="footer">
+			Copyright &copy; 2016 Ryan Gaus.
+		</div>
+	</div>
+	<script src="common.js"></script>
+	<script src="bundle.js"></script>
+	<script src="example.js"></script>
+</body>
