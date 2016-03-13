@@ -3,7 +3,7 @@ require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof requ
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var ReactLoading = require('react-loading');
+var ReactLoading = require('react-funny');
 
 ReactDOM.render(React.createElement(ReactLoading, null), document.getElementById('app'));
 ReactDOM.render(React.createElement(ReactLoading, { title: 'Loading all the things...' }), document.getElementById('app-title'));
@@ -12,4 +12,4 @@ ReactDOM.render(React.createElement(ReactLoading, { size: 'lg' }), document.getE
 ReactDOM.render(React.createElement(ReactLoading, { size: 'md' }), document.getElementById('app-size-md'));
 ReactDOM.render(React.createElement(ReactLoading, { size: 'sm' }), document.getElementById('app-size-sm'));
 
-},{"react":undefined,"react-dom":undefined,"react-loading":undefined}]},{},[1]);
+},{"react":undefined,"react-dom":undefined,"react-funny":undefined}]},{},[1]);
