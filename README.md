@@ -1,11 +1,11 @@
 # React Loading
 
-__COMPONENT DESCRIPTION GOES HERE__
+__Make your user's laugh when loading a view.__
 
 
 ## Demo & Examples
 
-Live demo: [1egoman.github.io/react-loading](http://1egoman.github.io/react-loading/)
+Live demo: [waltz-app.github.io/react-loading](http://waltz-app.github.io/react-loading/)
 
 To build the examples locally, run:
 
@@ -29,23 +29,7 @@ npm install react-loading --save
 
 
 ## Usage
-
-__EXPLAIN USAGE HERE__
-
-```
-var ReactLoading = require('react-loading');
-
-<ReactLoading>Example</ReactLoading>
-```
-
-### Properties
-
-* __DOCUMENT PROPERTIES HERE__
-
-### Notes
-
-__ADDITIONAL USAGE NOTES__
-
+See the demo above.
 
 ## Development (`src`, `lib` and the build process)
 
@@ -54,8 +38,7 @@ __ADDITIONAL USAGE NOTES__
 To build, watch and serve the examples (which will also watch the component source), run `npm start`. If you just want to watch changes to `src` and rebuild `lib`, run `npm run watch` (this is useful if you are working with `npm link`).
 
 ## License
-
-__PUT LICENSE HERE__
+MIT licensed.
 
 Copyright (c) 2016 Ryan Gaus.
 
