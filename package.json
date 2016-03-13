@@ -1,16 +1,16 @@
 {
-  "name": "react-loading",
+  "name": "react-funny",
   "version": "1.0.0",
-  "description": "React Loading",
+  "description": "React loading of funny messages",
   "main": "lib/ReactLoading.js",
   "author": "Ryan Gaus",
-  "homepage": "https://github.com/1egoman/react-loading",
+  "homepage": "https://github.com/1egoman/react-funny",
   "repository": {
     "type": "git",
-    "url": "https://github.com/1egoman/react-loading.git"
+    "url": "https://github.com/1egoman/react-funny.git"
   },
   "bugs": {
-    "url": "https://github.com/1egoman/react-loading/issues"
+    "url": "https://github.com/1egoman/react-funny/issues"
   },
   "dependencies": {
     "classnames": "^2.1.2"

@@ -1,11 +1,12 @@
-# React Loading
+# React Funny
 
 __Make your user's laugh when loading a view.__
 
 
 ## Demo & Examples
 
-Live demo: [waltz-app.github.io/react-loading](http://waltz-app.github.io/react-loading/)
+Live demo:
+[waltz-app.github.io/react-funny](http://waltz-app.github.io/react-funny/)
 
 To build the examples locally, run:
 
@@ -19,12 +20,12 @@ Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
 ## Installation
 
-The easiest way to use react-loading is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
+The easiest way to use react-funny is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
 
 You can also use the standalone build by including `dist/react-loading.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
 
 ```
-npm install react-loading --save
+npm install react-funny --save
 ```
 
 

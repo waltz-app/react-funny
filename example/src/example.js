@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var ReactLoading = require('react-loading');
+var ReactLoading = require('react-funny');
 
 ReactDOM.render(<ReactLoading />, document.getElementById('app'));
 ReactDOM.render(<ReactLoading title="Loading all the things..." />, document.getElementById('app-title'));
